@@ -3,7 +3,10 @@ let person = {
     firstName: "John",
     lastName: "Doe",
     age: 30,
-    isStudent: false
+    isStudent: false,
+    motherName : "Rachel",
+    score: 30,
+    function: function nothing () {console.log ('nothing')}
 };
 
 console.log(person);

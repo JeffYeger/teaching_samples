@@ -2,6 +2,10 @@
 
 let x = 10
 
+if (1+1 >=2) {
+
+}
+
 if (1+1 >= 2) {
  console.log ("True")
 }
@@ -23,7 +27,7 @@ if (num1 == num2) {
 
 // Example 3
 
-const age = 18;
+const age = 18
 
 if (age > 18) {
     console.log("You are older than 18.");
@@ -36,12 +40,12 @@ if (age > 18) {
 
 //Example 4
 
-const grade = 85;
-const attendance = true;
+let grade = 85;
+let attendance = false;
 
-if (grade >= 70 && attendance) {
+if (grade >= 70 && attendance == true) {
     console.log("Congratulations! You passed the course.");
-} else if (grade >= 70 && !attendance) {
+} else if (grade >= 70 && attendance == false) {
     console.log("You passed, but attendance could be better.");
 } else {
     console.log("Unfortunately, you did not pass.");

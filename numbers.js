@@ -11,7 +11,7 @@ let division = 15 / 3;      // Result: 5
 let modulus = 17 % 5;       // Result: 2
 
 // Mixing numbers and strings
-let concat1 = 8 + "8";      // Result: "88"
+let concat1 = 8 + " 8";      // Result: "8 8"
 let subtractStr = "8" - 2;  // Result: 6
 let multiplyStr = "8" * "8"; // Result: 64
 
@@ -21,3 +21,4 @@ let str1 = "42";
 let str2 = "3.14";
 let numFromString1 = parseInt(str1);    // Result: 42
 let numFromString2 = parseFloat(str2);  // Result: 3.14
+

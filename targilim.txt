@@ -1,0 +1,53 @@
+Targil 1 - Variables
+
+
+1. צרו דף html חדש (קובץ עם סיומת .html)
+2. צרו קובץ js (סיומת js)
+3. כתבו תגית script ובתוכה כתבו src וטענו את הקובץ שיצרתם בסעיף 2. 
+4. צרו משתנה והזינו לתוכו מספר
+5. הדפיסו את המשתנה + 8 (alert/console.log)
+6. הגדירו משתנה חדש והזינו לתוכו את המשתנה הראשון כפול בעצמו.
+7. הדפיסו את המשתנה החדש.
+
+
+
+
+Targil 2 - prompt 3 inputs, find the biggest between them 
+
+תרגיל 1
+קלטו 3 מספרים
+והדפיסו את המספר הגדול ביותר.
+
+let
+a = Number(prompt("enter number: ")),
+b = Number(prompt("enter number: ")),
+c = Number(prompt("enter number: "));
+
+if (a > b) {
+if (a > c) {
+console.log(a);
+}
+else {
+console.log(c);
+}
+}
+else {
+if (b > c) {
+console.log(b);
+}
+else {
+console.log(b);
+}
+}
+
+
+
+Targil - print in the right order (backticks?)
+קלטו שם משתמש, שם פרטי ושם משפחה.
+
+הדפיסו :
+"שלום _____________ "
+לתוך השדה הריק אתם נדרשים להכניס לפי הסדר (בהנחה שקיים מידע) 
+שם משתמש  >> שם פרטי >> שם משפחה >> Anonymous
+
+נסו לבצע קלט לחלק מהמשתנים ולבדוק את כל הסיטואציות

@@ -2,7 +2,7 @@
 let msg = "hello";
 msg = "asmin12344";
 msg = "passW0rd!!";
-msg = "habad";
+msg = "wow";
 msg = "it's ok";
 
 // String concatenation: combining strings with the + operator
@@ -16,3 +16,5 @@ let result1 = "8" - 2; // Result: 6
 
 // Strings containing numbers will be treated as numeric values
 let result2 = "8" * "8"; // Result: 64
+
+let something = "8 * 8"

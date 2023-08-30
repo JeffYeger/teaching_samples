@@ -1,4 +1,9 @@
 // Basic arrow function with parameters and a single expression
+
+function addNum (a,b) {
+    return a+b
+}
+
 const add = (a, b) => a + b;
 
 // Arrow function with no parameters
