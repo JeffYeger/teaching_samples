@@ -2,6 +2,7 @@
 let expr = Boolean(10 > 9); 
 console.log(expr); // Output: true
 
+
 let y = 10
 let z = Boolean (y)
 

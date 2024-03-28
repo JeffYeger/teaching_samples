@@ -14,6 +14,36 @@ else {
 }
 
 
+
+const num10 = 10;
+const num20 = 5;
+
+const remainder = num10 % num20;
+
+if (remainder === 0) {
+    console.log("The numbers are equal.");
+} else {
+    console.log("The numbers are not equal.");
+
+    if (remainder > 5) {
+        console.log(`The remainder (${remainder}) is above 5.`);
+    } else {
+        console.log(`The remainder (${remainder}) is 5 or below.`);
+    }
+}
+// "" '' ``
+
+console.log ("this is a string" + num10 + "and this is also a number" + num5 + "")
+console.log (`This is a string and this is ${num10}`)
+
+
+
+
+
+
+
+
+
 //Example 2
 
 const num1 = 10;

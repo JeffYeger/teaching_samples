@@ -1,0 +1,141 @@
+/* 1. Selectors */
+/* Select by type */
+p {
+    color: blue;
+  }
+  
+  /* Select by class */
+  .button {
+    background-color: green;
+  }
+  
+  /* Select by ID */
+  #header {
+    font-size: 24px;
+  }
+  
+  /* 2. Box Model */
+  .box {
+    width: 200px;
+    height: 100px;
+    padding: 10px;
+    border: 2px solid #333;
+    margin: 20px;
+  }
+  
+
+  /* 3. Typography */
+  body {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  /* 4. Colors */
+  .text-red {
+    color: red;
+  }
+
+  /* 5. Backgrounds */
+.background-example {
+    background-color: #f0f0f0;
+    background-image: url('background-image.jpg');
+    background-size: cover;
+  }
+  
+  /* 6. Display and Positioning */
+  .display-example {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .position-example {
+    position: relative;
+    top: 20px;
+    left: 10px;
+  }
+  
+  /* 7. Transitions */
+  .transition-example {
+    transition: color 0.3s ease-in-out;
+  }
+  
+  /* 8. Flexbox */
+  .flex-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .flex-item {
+    flex-grow: 1;
+  }
+  
+  /* 9. Grid Layout */
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+  
+  .grid-item {
+    background-color: #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* 10. Responsive Design */
+  @media screen and (max-width: 600px) {
+    .responsive-example {
+      font-size: 14px;
+    }
+  }
+  
+  /* 11. Pseudo-classes */
+  a:hover {
+    color: purple;
+  }
+  
+  /* 12. Transforms */
+  .transform-example {
+    transform: rotate(45deg);
+  }
+  
+  /* 13. Box Shadow */
+  .box-shadow-example {
+    box-shadow: 2px 2px 5px #888888;
+  }
+  
+  /* 14. Opacity */
+  .opacity-example {
+    opacity: 0.8;
+  }
+
+  /* 15. Example for align-items */
+  
+.flex-container-align {
+    display: flex;
+    height: 200px;
+    align-items: center; /* Align items vertically in the center */
+  }
+  
+  .flex-item-align {
+    background-color: #f0f0f0;
+    padding: 10px;
+  }
+  
+  /* 16. Example for justify-content */
+  .flex-container-justify {
+    display: flex;
+    height: 200px;
+    justify-content: space-around; /* Distribute items with equal space around them */
+  }
+  
+  .flex-item-justify {
+    background-color: #ddd;
+    padding: 10px;
+  }
+  
+  
