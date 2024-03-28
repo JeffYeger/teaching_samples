@@ -52,6 +52,18 @@ function addStudent () {
     localStorage.setItem(key, JSON.stringify(data));
 }
 
+const students = [
+    { id: 1, name: "John", age: 20, grade: "A" },
+    { id: 2, name: "Jane", age: 21, grade: "B" },
+    { id: 3, name: "Alice", age: 22, grade: "A" }
+]
+
+let string = JSON.stringify(students)
+console.log(string);
+
+let parse = JSON.parse(string)
+console.log (parse)
+
 
 
 
